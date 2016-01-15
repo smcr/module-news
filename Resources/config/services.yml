@@ -1,0 +1,4 @@
+services:
+#    Module:
+#        class: Ndv\NewsBundle\Service\ModuleService
+#        arguments: [ "@doctrine.orm.entity_manager", @service_container, @Entities, @Objects]
