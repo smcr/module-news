@@ -1,10 +1,10 @@
 <?php
 
-namespace Ndv\NewsBundle\Controller;
+namespace Modules\NewsBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 
-use Ndv\EntityBuilderBundle\Classes\ExtendedController;
+use Modules\EntityBuilderBundle\Classes\ExtendedController;
 
 class NewsController extends ExtendedController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ndv\NewsBundle\Tests\Controller;
+namespace Modules\NewsBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

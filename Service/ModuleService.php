@@ -1,6 +1,6 @@
 <?php
 
-namespace Ndv\NewsBundle\Service;
+namespace Modules\NewsBundle\Service;
 
 use Doctrine\ORM\EntityManager;
 use Symfony\Component\DependencyInjection\Container;

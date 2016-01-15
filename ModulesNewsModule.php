@@ -1,11 +1,11 @@
 <?php
 
-namespace Ndv\NewsBundle;
+namespace Modules\NewsBundle;
 
 use Doctrine\ORM\EntityManager;
 use Symfony\Component\DependencyInjection\Container;
 
-class NdvNewsModule
+class ModulesNewsModule
 {
     public $oEm;
     public $oContainer;

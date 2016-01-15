@@ -1,4 +1,4 @@
 top:
-    ndv_news_homepage:
+    modules_news_homepage:
         name: "Новости"
         sort: 30
