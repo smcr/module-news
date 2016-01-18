@@ -17,9 +17,14 @@ class NewsController extends ExtendedController
         if($cached) {
             return $cached;
         }
-        //Получение объектов        
-        $items = $this->get('Objects')->getEntityObjectsBy(['conditions'=>['code'=>'news']]);
-
+        
+        $em = $this->getDoctrine()->getManager();
+        $repoObjects = $em->getRepository('NdvEntityBuilderBundle:Object');
+        
+        $entityNews = $this->get('Entities')->getEntityBy(['code'=>'news']);
+        
+        $items = $repoObjects->findByEntityIdAndValues($entityNews->getId());
+        
         //рендерим
         return $this->renderTheme('index', ['items'=>$items], $store);
     }
@@ -36,10 +41,37 @@ class NewsController extends ExtendedController
         
         $store->meta->appendTitle('И новости тоже', ' | ');
         
-        //Получение объектов        
-        $items = $this->get('Objects')->getEntityObjectsBy(['conditions'=>['code'=>'news']]);
+        //Получение объектов
+        $entityNews = $this->get('Entities')->getEntityBy(['code'=>'news']);
+        
+        $em = $this->getDoctrine()->getManager();
+        $repoObjects = $em->getRepository('NdvEntityBuilderBundle:Object');
+        $items = $repoObjects->findByEntityIdAndValues($entityNews->getId());
         
         //рендерим
         return $this->renderTheme('list', ['items'=>$items], $store);
+    }
+    
+    public function showAction($slug, $theme)
+    {
+        $store = $this->initDataStore(['slug'=>$slug, 'theme'=>$theme], ['expirePolicy' => 'entries']);
+        
+        //проверка кэша
+        $cached = $this->getCachedTpl($store);
+        if($cached) {
+            return $cached;
+        }
+        
+        $store->meta->appendTitle('И новости тоже', ' | ');
+        
+        //Получение объектов
+        $entityNews = $this->get('Entities')->getEntityBy(['code'=>'news']);
+        
+        $em = $this->getDoctrine()->getManager();
+        $repoObjects = $em->getRepository('NdvEntityBuilderBundle:Object');
+        $item = $repoObjects->findOneByEntityIdAndValues($entityNews->getId(), ['id'=>$slug]);
+        
+        //рендерим
+        return $this->renderTheme('show', ['item'=>$item], $store);
     }
 }

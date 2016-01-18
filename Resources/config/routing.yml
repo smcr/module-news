@@ -1,3 +1,7 @@
 modules_news_homepage:
     path:     /site/news/{theme}
     defaults: { _controller: ModulesNewsBundle:News:index, "theme": "default" }
+
+modules_news_show:
+    path:     /site/news/{slug}/show/{theme}
+    defaults: { _controller: ModulesNewsBundle:News:show, "theme": "default" }
