@@ -2,7 +2,7 @@
 	"name" : "smcr/modules-news",
 	"description" : "A demo news bundle",
 	"type" : "symfony-bundle",
-	"version": "0.8",
+	"version": "dev-master",
 	"authors" : [{
 		"name" : "busaev",
 		"email" : "a@busaev.ru"
@@ -23,11 +23,6 @@
 	"target-dir" : "Modules/NewsBundle",
 	"repositories" : [{
 	}],
-	"extra" : {
-		"branch-alias" : {
-			"dev-master" : "0.8"
-		}
-	},
 	"config": {
         "vendor-dir": "src"
     }
