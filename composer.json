@@ -2,7 +2,7 @@
 	"name" : "smcr/modules-news",
 	"description" : "A demo news bundle",
 	"type" : "symfony-bundle",
-	"version": "dev-master",
+	"version": "0.8.5",
 	"authors" : [{
 		"name" : "busaev",
 		"email" : "a@busaev.ru"
