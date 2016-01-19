@@ -1,7 +1,7 @@
 {
 	"name" : "smcr/modules-news",
 	"description" : "A demo news bundle",
-	"type" : "symfony-bundle",
+	"type" : "rcms-module",
 	"version": "0.8.5",
 	"authors" : [{
 		"name" : "busaev",
@@ -14,6 +14,7 @@
 		"MIT"
 	],
 	"require" : {
+		"rcms/module-installer": "*"
 	},
 	"autoload" : {
 		"psr-0" : {
