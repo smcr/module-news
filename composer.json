@@ -4,11 +4,11 @@
 	"type" : "symfony-bundle",
 	"version": "0.8",
 	"authors" : [{
-		"name" : "demo",
-		"email" : "demo@company.com"
+		"name" : "busaev",
+		"email" : "a@busaev.ru"
 	}],
 	"keywords" : [
-		"demo bundle"
+		"RCMS News Bundle"
 	],
 	"license" : [
 		"MIT"
@@ -20,12 +20,15 @@
 			"Smcr\\NewsBundle" : ""
 		}
 	},
-	"target-dir" : "Smcr/NewsBundle",
+	"target-dir" : "Modules/NewsBundle",
 	"repositories" : [{
 	}],
 	"extra" : {
 		"branch-alias" : {
 			"dev-master" : "0.8"
 		}
-	}
+	},
+	"config": {
+        "vendor-dir": "src"
+    }
 }
