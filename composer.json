@@ -1,0 +1,30 @@
+{
+	"name" : "smcr/modules-news",
+	"description" : "A demo news bundle",
+	"type" : "symfony-bundle",
+	"authors" : [{
+		"name" : "demo",
+		"email" : "demo@company.com"
+	}],
+	"keywords" : [
+		"demo bundle"
+	],
+	"license" : [
+		"MIT"
+	],
+	"require" : {
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Smcr\\NewsBundle" : ""
+		}
+	},
+	"target-dir" : "Smcr/NewsBundle",
+	"repositories" : [{
+	}],
+	"extra" : {
+		"branch-alias" : {
+			"dev-master" : "0.5"
+		}
+	}
+}
