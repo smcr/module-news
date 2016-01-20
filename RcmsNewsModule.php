@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\NewsBundle;
+namespace Rcms\NewsBundle;
 
 use Doctrine\ORM\EntityManager;
 use Symfony\Component\DependencyInjection\Container;
