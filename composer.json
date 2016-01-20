@@ -1,7 +1,7 @@
 {
 	"name" : "rcms/newsbundle",
 	"description" : "A news demo bundle",
-	"type" : "rcms-module",
+	"type" : "rcms-module2",
 	"version": "0.8.5",
 	"authors" : [{
 		"name" : "demo",
