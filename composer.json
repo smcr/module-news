@@ -14,7 +14,7 @@
 		"MIT"
 	],
 	"require" : {
-		
+            "rcms/module-installer": "*"
 	},
 	"autoload" : {
 		"psr-0" : {
