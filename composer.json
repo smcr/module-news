@@ -1,7 +1,7 @@
 {
 	"name" : "rcms/newsbundle",
 	"description" : "A news demo bundle",
-	"type" : "rcms-module2",
+	"type" : "rcms-module",
 	"version": "0.8.5",
 	"authors" : [{
 		"name" : "demo",
@@ -14,7 +14,7 @@
 		"MIT"
 	],
 	"require" : {
-		"rcms/module-installer": "*"
+		
 	},
 	"autoload" : {
 		"psr-0" : {
