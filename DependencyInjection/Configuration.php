@@ -1,6 +1,6 @@
 <?php
 
-namespace Rcms\NewsBundle\DependencyInjection;
+namespace Modules\NewsBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

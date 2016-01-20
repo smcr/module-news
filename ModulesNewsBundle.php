@@ -4,6 +4,6 @@ namespace Modules\NewsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class RcmsNewsBundle extends Bundle
+class ModulesNewsBundle extends Bundle
 {
 }
