@@ -1,6 +1,6 @@
 <?php
 
-namespace Rcms\NewsBundle;
+namespace Modules\NewsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

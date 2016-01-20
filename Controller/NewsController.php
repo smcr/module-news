@@ -1,6 +1,6 @@
 <?php
 
-namespace Rcms\NewsBundle\Controller;
+namespace Modules\NewsBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 
