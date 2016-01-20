@@ -19,8 +19,9 @@
 		}
     },
     "extra":{
-    "installer-paths":{
-      "./src/Modules/NewsBundle/": ["rcms/newsbundle"]
+        "installer-paths":{
+            "./src/Modules/NewsBundle/": ["rcms/newsbundle"]
+        }
     },
     "target-dir" : "Rcms/NewsBundle",
     "repositories" : [{
