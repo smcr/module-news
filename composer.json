@@ -1,7 +1,7 @@
 {
 	"name" : "smcr/modules-news",
 	"description" : "A demo news bundle",
-	"type" : "rcms-module",
+	"type" : "package",
 	"version": "0.8.5",
 	"authors" : [{
 		"name" : "busaev",
