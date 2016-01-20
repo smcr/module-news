@@ -1,7 +1,7 @@
 {
 	"name" : "smcr/modules-news",
 	"description" : "A demo news bundle",
-	"type" : "package",
+	"type" : "rcms-module",
 	"version": "0.8.5",
 	"authors" : [{
 		"name" : "busaev",
@@ -13,6 +13,9 @@
 	"license" : [
 		"MIT"
 	],
+	"require" : {
+		"rcms/module-installer": "*"
+	},
 	"autoload" : {
 		"psr-0" : {
 			"Smcr\\NewsBundle" : ""
