@@ -10,9 +10,6 @@
     "keywords" : [
 		"rcms news demo bundle"
     ],
-    "require": {
-	    "rcms/composer-custom-directory-installer": "*"
-    },
     "license" : [
 		"MIT"
     ],
@@ -20,6 +17,10 @@
 		"psr-0" : {
 			"Rcms\\NewsBundle" : ""
 		}
+    },
+    "extra":{
+    "installer-paths":{
+      "./src/Modules/NewsBundle/": ["rcms/newsbundle"]
     },
     "target-dir" : "Rcms/NewsBundle",
     "repositories" : [{
