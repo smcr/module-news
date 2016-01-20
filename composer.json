@@ -14,11 +14,11 @@
 		"MIT"
 	],
 	"require" : {
-            "rcms/module-installer": "*"
+            
 	},
 	"autoload" : {
 		"psr-0" : {
-			"Company\\DemoBundle" : ""
+			"Rcms\\NewsBundle" : ""
 		}
 	},
 	"target-dir" : "Rcms/NewsBundle",
