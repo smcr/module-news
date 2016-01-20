@@ -1,27 +1,27 @@
 {
-	"name" : "rcms/newsbundle",
-	"description" : "A news demo bundle",
-	"type" : "library",
-	"version": "0.8.5",
-	"authors" : [{
+    "name" : "rcms/newsbundle",
+    "description" : "A news demo bundle",
+    "type" : "library",
+    "version": "0.8.5",
+    "authors" : [{
 		"name" : "demo",
 		"email" : "demo@company.com"
-	}],
-	"keywords" : [
+    }],
+    "keywords" : [
 		"rcms news demo bundle"
-	],
-        "require": {
+    ],
+    "require": {
 	    "rcms/composer-custom-directory-installer": "*"
-	},
-	"license" : [
+    },
+    "license" : [
 		"MIT"
-	],
-	"autoload" : {
+    ],
+    "autoload" : {
 		"psr-0" : {
 			"Rcms\\NewsBundle" : ""
 		}
-	},
-	"target-dir" : "Rcms/NewsBundle",
-	"repositories" : [{
-	}],
+    },
+    "target-dir" : "Rcms/NewsBundle",
+    "repositories" : [{
+    }],
 }
