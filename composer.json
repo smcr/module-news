@@ -13,9 +13,6 @@
 	"license" : [
 		"MIT"
 	],
-	"require" : {
-            
-	},
 	"autoload" : {
 		"psr-0" : {
 			"Rcms\\NewsBundle" : ""
