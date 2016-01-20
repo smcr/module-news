@@ -1,4 +1,0 @@
-services:
-#    Module:
-#        class: Modules\NewsBundle\Service\ModuleService
-#        arguments: [ "@doctrine.orm.entity_manager", @service_container, @Entities, @Objects]

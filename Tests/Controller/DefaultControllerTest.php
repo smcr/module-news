@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\NewsBundle\Tests\Controller;
+namespace Rcms\NewsBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

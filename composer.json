@@ -1,14 +1,13 @@
 {
-	"name" : "smcr/modules-news",
-	"description" : "A demo news bundle",
-	"type" : "symfony-bundle",
-	"version": "0.8",
+	"name" : "rcms/newsbundle",
+	"description" : "A news demo bundle",
+	"type" : "rcms-module",
 	"authors" : [{
-		"name" : "busaev",
-		"email" : "a@busaev.ru"
+		"name" : "demo",
+		"email" : "demo@company.com"
 	}],
 	"keywords" : [
-		"RCMS News Bundle"
+		"rcms news demo bundle"
 	],
 	"license" : [
 		"MIT"
@@ -17,18 +16,10 @@
 	},
 	"autoload" : {
 		"psr-0" : {
-			"Smcr\\NewsBundle" : ""
+			"Company\\DemoBundle" : ""
 		}
 	},
-	"target-dir" : "Modules/NewsBundle",
+	"target-dir" : "Rcms/NewsBundle",
 	"repositories" : [{
 	}],
-	"extra" : {
-		"branch-alias" : {
-			"dev-master" : "0.8"
-		}
-	},
-	"config": {
-        "vendor-dir": "src"
-    }
 }
